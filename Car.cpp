@@ -27,10 +27,10 @@ int Car::get_emissions(){
 
 Car::Car(int price){
 	
-	price=set_price(price);
-	emissions=set_emissions(0);
+	set_price(price);
+	set_emissions(0);
 }
 
 void Car::drive(int kms){
-	emissions=set_emissions(kms);
+	set_emissions(kms);
 }
