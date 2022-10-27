@@ -24,7 +24,7 @@ Car::Car(){
 }
 
 Car::Car(int price){
-	set_emmisions=0;
+	set_emissions=0;
 	set_price=price;
 }
 
