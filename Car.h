@@ -9,7 +9,7 @@ int price;
 int emissions=0;
 
 public:
-int set_vinNumber
+int set_vinNumber;
 int set_price;
 int set_emissions=0;
 int get_vinNumber;
@@ -25,8 +25,8 @@ Car::Car(){
 }
 
 Car::Car(int price){
-	set_emmisions=0;
-	set_price=price
+	set_emissions=0;
+	set_price=price;
 }
 
 void Car::drive(int kms){
