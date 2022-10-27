@@ -1,11 +1,6 @@
 #include <iostream>
 #define Car_H
 
-Car::Car(int price);   // creates a Car with a price
-Car();
-void drive(int kms);
-};
-
 Car::Car(){
 }
 
