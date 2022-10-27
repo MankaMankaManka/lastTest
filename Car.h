@@ -1,5 +1,16 @@
 #include <iostream>
 
+class Car
+{
+public:
+int vinNumber;
+int price;
+int emissions;
+Car(int zprice);   // creates a Car with a price
+Car();
+void drive(int kms);
+};
+
 Car::Car(){
 }
 
