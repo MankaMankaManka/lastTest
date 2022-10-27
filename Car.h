@@ -2,18 +2,18 @@
 #define Car_H
 class Car
 {
-private:
+public:
 int vinNumber;
 int price;
 int emissions=0;
+int number;
 
-public:
-int set_vinNumber;
-int set_price;
-int set_emissions=0;
-int get_vinNumber;
-int get_price;
-int get_emissions;
+void set_vinNumber(int number);
+void set_price(int number);
+void set_emissions(int number);
+int get_vinNumber();
+int get_price();
+int get_emissions();
 
 Car(int price);   // creates a Car with a price
 Car();
